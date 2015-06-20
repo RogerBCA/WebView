@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5945D1611B353EC00017583C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5945D1601B353EC00017583C /* AppDelegate.swift */; };
+		5945D1641B353EC00017583C /* Luxury_BCP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5945D1621B353EC00017583C /* Luxury_BCP.xcdatamodeld */; };
+		5945D1661B353EC00017583C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5945D1651B353EC00017583C /* ViewController.swift */; };
+		5945D1691B353EC00017583C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5945D1671B353EC00017583C /* Main.storyboard */; };
+		5945D16B1B353EC00017583C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5945D16A1B353EC00017583C /* Images.xcassets */; };
+		5945D16E1B353EC00017583C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5945D16C1B353EC00017583C /* LaunchScreen.xib */; };
+		5945D17A1B353EC00017583C /* Luxury_BCPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5945D1791B353EC00017583C /* Luxury_BCPTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5945D1741B353EC00017583C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5945D1531B353EBF0017583C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5945D15A1B353EBF0017583C;
+			remoteInfo = "Luxury BCP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5945D15B1B353EBF0017583C /* Luxury BCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Luxury BCP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5945D15F1B353EC00017583C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5945D1601B353EC00017583C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5945D1631B353EC00017583C /* Luxury_BCP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Luxury_BCP.xcdatamodel; sourceTree = "<group>"; };
+		5945D1651B353EC00017583C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5945D1681B353EC00017583C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5945D16A1B353EC00017583C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5945D16D1B353EC00017583C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5945D1731B353EC00017583C /* Luxury BCPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Luxury BCPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5945D1781B353EC00017583C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5945D1791B353EC00017583C /* Luxury_BCPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luxury_BCPTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5945D1581B353EBF0017583C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5945D1701B353EC00017583C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5945D1521B353EBF0017583C = {
+			isa = PBXGroup;
+			children = (
+				5945D15D1B353EBF0017583C /* Luxury BCP */,
+				5945D1761B353EC00017583C /* Luxury BCPTests */,
+				5945D15C1B353EBF0017583C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5945D15C1B353EBF0017583C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5945D15B1B353EBF0017583C /* Luxury BCP.app */,
+				5945D1731B353EC00017583C /* Luxury BCPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5945D15D1B353EBF0017583C /* Luxury BCP */ = {
+			isa = PBXGroup;
+			children = (
+				5945D1601B353EC00017583C /* AppDelegate.swift */,
+				5945D1651B353EC00017583C /* ViewController.swift */,
+				5945D1671B353EC00017583C /* Main.storyboard */,
+				5945D16A1B353EC00017583C /* Images.xcassets */,
+				5945D16C1B353EC00017583C /* LaunchScreen.xib */,
+				5945D1621B353EC00017583C /* Luxury_BCP.xcdatamodeld */,
+				5945D15E1B353EC00017583C /* Supporting Files */,
+			);
+			path = "Luxury BCP";
+			sourceTree = "<group>";
+		};
+		5945D15E1B353EC00017583C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5945D15F1B353EC00017583C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5945D1761B353EC00017583C /* Luxury BCPTests */ = {
+			isa = PBXGroup;
+			children = (
+				5945D1791B353EC00017583C /* Luxury_BCPTests.swift */,
+				5945D1771B353EC00017583C /* Supporting Files */,
+			);
+			path = "Luxury BCPTests";
+			sourceTree = "<group>";
+		};
+		5945D1771B353EC00017583C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5945D1781B353EC00017583C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5945D15A1B353EBF0017583C /* Luxury BCP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5945D17D1B353EC00017583C /* Build configuration list for PBXNativeTarget "Luxury BCP" */;
+			buildPhases = (
+				5945D1571B353EBF0017583C /* Sources */,
+				5945D1581B353EBF0017583C /* Frameworks */,
+				5945D1591B353EBF0017583C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Luxury BCP";
+			productName = "Luxury BCP";
+			productReference = 5945D15B1B353EBF0017583C /* Luxury BCP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5945D1721B353EC00017583C /* Luxury BCPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5945D1801B353EC00017583C /* Build configuration list for PBXNativeTarget "Luxury BCPTests" */;
+			buildPhases = (
+				5945D16F1B353EC00017583C /* Sources */,
+				5945D1701B353EC00017583C /* Frameworks */,
+				5945D1711B353EC00017583C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5945D1751B353EC00017583C /* PBXTargetDependency */,
+			);
+			name = "Luxury BCPTests";
+			productName = "Luxury BCPTests";
+			productReference = 5945D1731B353EC00017583C /* Luxury BCPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5945D1531B353EBF0017583C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Roger Baltazar Cruz Alvarez";
+				TargetAttributes = {
+					5945D15A1B353EBF0017583C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					5945D1721B353EC00017583C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 5945D15A1B353EBF0017583C;
+					};
+				};
+			};
+			buildConfigurationList = 5945D1561B353EBF0017583C /* Build configuration list for PBXProject "Luxury BCP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5945D1521B353EBF0017583C;
+			productRefGroup = 5945D15C1B353EBF0017583C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5945D15A1B353EBF0017583C /* Luxury BCP */,
+				5945D1721B353EC00017583C /* Luxury BCPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5945D1591B353EBF0017583C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5945D1691B353EC00017583C /* Main.storyboard in Resources */,
+				5945D16E1B353EC00017583C /* LaunchScreen.xib in Resources */,
+				5945D16B1B353EC00017583C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5945D1711B353EC00017583C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5945D1571B353EBF0017583C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5945D1661B353EC00017583C /* ViewController.swift in Sources */,
+				5945D1641B353EC00017583C /* Luxury_BCP.xcdatamodeld in Sources */,
+				5945D1611B353EC00017583C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5945D16F1B353EC00017583C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5945D17A1B353EC00017583C /* Luxury_BCPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5945D1751B353EC00017583C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5945D15A1B353EBF0017583C /* Luxury BCP */;
+			targetProxy = 5945D1741B353EC00017583C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5945D1671B353EC00017583C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5945D1681B353EC00017583C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5945D16C1B353EC00017583C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5945D16D1B353EC00017583C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5945D17B1B353EC00017583C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5945D17C1B353EC00017583C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5945D17E1B353EC00017583C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Luxury BCP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5945D17F1B353EC00017583C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Luxury BCP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5945D1811B353EC00017583C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Luxury BCPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luxury BCP.app/Luxury BCP";
+			};
+			name = Debug;
+		};
+		5945D1821B353EC00017583C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Luxury BCPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luxury BCP.app/Luxury BCP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5945D1561B353EBF0017583C /* Build configuration list for PBXProject "Luxury BCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5945D17B1B353EC00017583C /* Debug */,
+				5945D17C1B353EC00017583C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5945D17D1B353EC00017583C /* Build configuration list for PBXNativeTarget "Luxury BCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5945D17E1B353EC00017583C /* Debug */,
+				5945D17F1B353EC00017583C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5945D1801B353EC00017583C /* Build configuration list for PBXNativeTarget "Luxury BCPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5945D1811B353EC00017583C /* Debug */,
+				5945D1821B353EC00017583C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5945D1621B353EC00017583C /* Luxury_BCP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5945D1631B353EC00017583C /* Luxury_BCP.xcdatamodel */,
+			);
+			currentVersion = 5945D1631B353EC00017583C /* Luxury_BCP.xcdatamodel */;
+			path = Luxury_BCP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5945D1531B353EBF0017583C /* Project object */;
+}
